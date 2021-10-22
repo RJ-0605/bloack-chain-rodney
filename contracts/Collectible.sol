@@ -17,4 +17,8 @@ contract Collectible {
     function setName(string memory name) public {
         _name = name;
     }
+
+    function getMyName() view public returns (string memory){
+        return "Jedidiah Rodney Kwao Tetteh  ";
+    }
 }
